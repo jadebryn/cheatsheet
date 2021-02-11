@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pangolin/v6/cY9GfjGcW0FPpi-tWMfN79w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+nav,
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.italic {
+    font-style:italic
+}
+
+h1 {
+    font-family: "Pangolin", Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+}
+
+h2 {
+    font-family: "Pangolin", Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Pangolin", Helvetica, sans-serif;
+    color: rgb(92, 2, 92);
+    text-decoration: underline;
+}
+
+thead {
+    font-family: "Pangolin", Helvetica, sans-serif;
+    background-color: plum;
+}
+
+nav,
+td,
+footer {
+    font-family: Helvetica, sans-serif;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+    border: 3px solid;
+    border-color: purple;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+td,
+th {
+    border: 2px solid;
+    padding: 5px;
+    border-color:rgb(173, 139, 173);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(245, 204, 245);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
